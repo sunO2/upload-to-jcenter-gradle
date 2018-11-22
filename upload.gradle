@@ -38,4 +38,5 @@ publish {
     bintrayKey = properties.getProperty("bintray.apikey")
     desc = properties.getProperty("bintray.desc")
     website = properties.getProperty("bintray.desc")
+    print(properties)
 }
